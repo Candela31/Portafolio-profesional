@@ -3,7 +3,7 @@
 
 
 
-# DESCRIPVION
+# DESCRIPcION
 esta pagina se trata de mi portafolio
 
 # Conclusion
@@ -12,6 +12,6 @@ esta pagina se trata de mi portafolio
 -Contiene tabla comparativa de tal cosa..
 
 
-# Autot 
+# Autor
 Candela Dominguez
 git 
