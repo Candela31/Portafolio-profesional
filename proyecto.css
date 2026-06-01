@@ -27,12 +27,3 @@ nav a{
     color:white;
     text-decoration:none;
 }
-.contenedor-principal{
-    display:flex;
-    gap:20px;
-}
-
-.article.aside{
-    background:white;
-    padding:20px;
-}
