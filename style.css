@@ -1,6 +1,6 @@
 :root{
-    --color-principal: #d392b2;
-    --color-fondo:#ce2881;
+    --color-principal: #ce2881;
+    --color-fondo:#d392b2;
     --color-texto:#333;
 }
 
@@ -8,4 +8,22 @@ body{
     background:var(--color-fondo);
     color:var(--color-texto);
     font-family:'Poppins', sans-serif;
+}
+header{
+    background:var(--color-principal);
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
 }
