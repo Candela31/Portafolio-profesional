@@ -29,3 +29,44 @@ body {
   line-height: 1.7;
 }
 
+header {
+  background: linear-gradient(135deg, var(--color-primario-oscuro) 0%, var(--color-primario) 60%, #5C2535 100%);
+  padding: 0 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+nav ul h2 {
+  font-family: var(--fuente-titulo);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-fondo);
+  letter-spacing: 0.03em;
+  padding: 1.1rem 1.5rem 1.1rem 0;
+  margin-right: auto;
+}
+
+nav ul li a {
+  color: var(--color-secundario-claro);
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 1.1rem 0.9rem;
+  display: block;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  transition: color 0.25s ease, background-color 0.25s ease;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+
