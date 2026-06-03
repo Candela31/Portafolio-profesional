@@ -68,5 +68,81 @@ nav ul li a:hover {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.08);
 }
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+ul.grid-proyecto {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+li.card {
+  background: #ffffff;
+  border: 0.5px solid var(--color-secundario-claro);
+  border-left: 3px solid var(--color-primario);
+  border-radius: 0 12px 12px 0;
+  padding: 1.75rem;
+  box-shadow: 0 2px 8px rgba(107, 45, 62, 0.05);
+  transition: box-shadow 0.25s ease, transform 0.25s ease, border-left-color 0.25s ease;
+}
+
+li.card:hover {
+  box-shadow: 0 8px 28px rgba(107, 45, 62, 0.13);
+  transform: translateY(-3px);
+  border-left-color: var(--color-primario-claro);
+}
+
+li.card h2 {
+  font-family: var(--fuente-titulo);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-primario);
+  margin-bottom: 0.4rem;
+}
+
+li.card h2::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: var(--color-secundario);
+  margin-top: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+li.card p {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--color-texto-secundario);
+  margin-bottom: 1.25rem;
+  font-style: italic;
+}
+
+li.card a {
+  display: inline-block;
+  font-family: var(--fuente-cuerpo);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--color-primario);
+  text-decoration: none;
+  border: 1px solid var(--color-secundario);
+  border-radius: 20px;
+  padding: 0.4rem 1.1rem;
+  letter-spacing: 0.03em;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
+}
+
+li.card a:hover {
+  background-color: var(--color-primario);
+  color: var(--color-fondo);
+  border-color: var(--color-primario);
+  transform: scale(1.03);
+}
 
 

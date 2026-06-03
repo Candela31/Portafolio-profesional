@@ -94,4 +94,86 @@ nav ul li a:hover {
   background-color: rgba(255, 255, 255, 0.08);
 }
 
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.contenedor-principal {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 2rem;
+  padding: 2.5rem 0;
+  box-shadow: 0 6px 6px -4px rgba(107, 45, 62, 0.2);
+}
+
+
+article#sobremi {
+  padding-right: 1rem;
+}
+
+article#sobremi h2 {
+  font-family: var(--fuente-titulo);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--color-primario);
+  margin-bottom: 0.4rem;
+}
+
+article#sobremi h2::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: var(--color-secundario);
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+article#sobremi p {
+  color: var(--color-texto-secundario);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.85;
+}
+
+
+aside {
+  background: #ffffff;
+  border: 0.5px solid var(--color-secundario-claro);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  align-self: start;
+  box-shadow: 0 2px 12px rgba(107, 45, 62, 0.07);
+}
+
+aside h3 {
+  font-family: var(--fuente-titulo);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-primario);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-secundario-claro);
+}
+
+aside p {
+  font-size: 13px;
+  color: var(--color-texto);
+  padding: 0.45rem 0;
+  border-bottom: 0.5px solid var(--color-secundario-claro);
+}
+
+aside p:last-child {
+  border-bottom: none;
+}
+
+aside p i {
+  font-style: normal;
+}
+
+
 
