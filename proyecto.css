@@ -1,29 +1,31 @@
-:root{
-    --color-principal: #aaa;
-    --color-fondo:#d392b2;
-    --color-texto:#333;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@300;400;500&display=swap');
+
+:root {
+  --color-primario:         #6B2D3E;
+  --color-primario-oscuro:  #4A1B2A;
+  --color-primario-claro:   #8B3A4F;
+  --color-secundario:       #C4A0B0;
+  --color-secundario-claro: #E8D5DC;
+  --color-fondo:            #F5EFE8;
+  --color-texto:            #2C1A20;
+  --color-texto-secundario: #7A5060;
+  --fuente-titulo:          'Playfair Display', serif;
+  --fuente-cuerpo:          'Lato', sans-serif;
 }
 
-body{
-    background:var(--color-fondo);
-    color:var(--color-texto);
-    font-family:'Poppins', sans-serif;
-}
-header{
-    background:var(--color-principal);
-    color:white;
-    text-align:center;
-    padding:30px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav ul{
-    list-style:none;
-    display:flex;
-    justify-content:center;
-    gap:20px;
+body {
+  font-family: var(--fuente-cuerpo);
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-size: 15px;
+  line-height: 1.7;
 }
 
-nav a{
-    color:white;
-    text-decoration:none;
-}
