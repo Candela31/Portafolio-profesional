@@ -366,5 +366,88 @@ footer a:hover {
   color: #ffffff;
 }
 
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
 
+  nav {
+    flex-direction: column;
+    padding-bottom: 0.5rem;
+    gap: 0.25rem;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul li a {
+    padding: 0.5rem 0.7rem;
+    font-size: 12px;
+  }
+
+  .contenedor-principal {
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    padding: 0 1.5rem;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  footer section {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 1.5rem 1rem 0;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  header > p {
+    font-size: 11px;
+  }
+
+  nav .logo {
+    display: none;
+  }
+
+  nav ul li a {
+    padding: 0.4rem 0.5rem;
+    font-size: 11px;
+  }
+
+  main {
+    padding: 0 1rem;
+  }
+
+  section.hero img {
+    width: 200px !important;
+  }
+
+  table {
+    font-size: 13px;
+  }
+
+  table th,
+  table td {
+    padding: 0.6rem 0.75rem;
+  }
+
+  section#video iframe {
+    width: 100%;
+    height: 200px;
+  }
+}
 

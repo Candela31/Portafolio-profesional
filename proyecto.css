@@ -220,6 +220,64 @@ footer a {
 footer a:hover {
   color: #ffffff;
 }
+@media (max-width: 768px) {
+  header {
+    padding: 0 1.5rem;
+  }
 
+  nav ul h2 {
+    font-size: 16px;
+    padding: 0.9rem 1rem 0.9rem 0;
+  }
+
+  nav ul li a {
+    padding: 0.9rem 0.6rem;
+    font-size: 12px;
+  }
+
+  main {
+    padding: 2rem 1.5rem;
+  }
+
+  ul.grid-proyecto {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem 0;
+  }
+
+  nav ul h2 {
+    padding: 0.6rem 0;
+    font-size: 15px;
+  }
+
+  nav ul li a {
+    padding: 0.5rem 0.4rem;
+    font-size: 12px;
+  }
+
+  main {
+    padding: 1.5rem 1rem;
+  }
+
+  ul.grid-proyecto {
+    grid-template-columns: 1fr;
+  }
+
+  li.card {
+    padding: 1.25rem;
+  }
+
+  .volver {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 
 
