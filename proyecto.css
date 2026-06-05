@@ -52,6 +52,7 @@ nav ul h2 {
   margin-right: auto;
 }
 
+
 nav ul li a {
   color: var(--color-secundario-claro);
   font-size: 13px;
@@ -278,6 +279,4 @@ footer a:hover {
     flex-direction: column;
     align-items: flex-start;
   }
-}
-
-
+} 
