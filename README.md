@@ -16,7 +16,7 @@ Este proyecto consiste en una página web  diseñada para exhibir mis proyectos 
 - Animación de rebote en la foto de perfil con @keyframes
 - Diseño responsive con media queries: tablet (768px) y celular (480px)
 - Menú que se reorganiza verticalmente en pantallas pequeñas
-- JavaScript (DOM, eventos, funciones, arrays, validaciones)git add README.md
+- JavaScript (DOM, eventos, funciones, arrays, validaciones)
 
 # Funcionalidades implementadas con JavaScript
 - Archivo `script.js` externo, vinculado desde `index.html` y `proyecto.html`.
