@@ -21,26 +21,12 @@
 
     <main>
 
-        <ul class="grid-proyecto">
+        <div class="buscador-container">
+            <input type="text" id="buscador" placeholder="Buscar proyecto por nombre o descripción...">
+        </div>
 
-            <li id="der" class="card">
-                <h2>Diagrama Entidad Relación</h2>
-                <p>Aplicación Música</p>
-                <a href="documentos/Diagrama Entidad Relacion - MusicApp.pdf" target="_blank">Abrir PDF MusicApp</a>
-            </li>
-
-            <li id="transacciones" class="card">
-                <h2>Transacciones</h2>
-                <p>Prueba de transacciones</p>
-                <a href="documentos/Trabajo practico 2- transacciones.pdf" target="_blank">Abrir PDF Transacción</a>
-            </li>
-
-            <li id="zoo" class="card">
-                <h2>Zoológico</h2>
-                <p>Diseño de una base de datos para zoológico</p>
-                <a href="documentos/Trabajo practico 3- BD ZOOLOGICO.pdf" target="_blank">Abrir PDF Zoológico</a>
-            </li>
-
+        <ul class="grid-proyecto" id="grid-proyectos">
+            <!-- Las tarjetas de proyectos se generan dinámicamente desde script.js -->
         </ul>
 
         <section class="volver">
@@ -58,5 +44,6 @@
         
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
