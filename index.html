@@ -34,6 +34,9 @@
             <p>Desarrolladora Trainee C++ / C# | HTML & CSS | básico JavaScript | WordPress | 
                SQL & Python | Estudiante Avanzada UTN | 
                Técnica en Reparación de Dispositivos Móviles</p>
+
+            <h3>Habilidades</h3>
+            <ul id="lista-habilidades"></ul>
         </article>
 
         <aside>
@@ -81,7 +84,23 @@
    
     </tbody>
 </table>
-            
+
+        <h3 class="titulo-formulario">Enviame un mensaje</h3>
+        <form id="form-contacto" novalidate>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribí tu mensaje"></textarea>
+
+            <button type="submit">Enviar</button>
+
+            <p id="mensaje-formulario" role="alert"></p>
+        </form>
+
         </section> <br><br><br>
 <section id="video">
     <h2>Videos recomendados</h2>
@@ -104,5 +123,7 @@
         </section>
 
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
